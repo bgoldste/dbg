@@ -1,0 +1,1 @@
+web: gunicorn dbg2.wsgi --log-file -

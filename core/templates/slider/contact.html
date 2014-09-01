@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class ="jumbotron text-center">
+  <h1>We're here to help!</h1>
+  <p>Click below to send an email or call:</p>
+
+
+  <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+ <textarea class="form-control" rows="3"></textarea>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+</div>
+
+
+
+
+
+
+{% endblock %}
